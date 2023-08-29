@@ -2,8 +2,14 @@ import React from "react";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
-import {SiGit,
-    SiGithub,SiBootstrap,SiTailwindCSS,SiJavascript,SiReact,
+import {
+    SiAdobeaftereffects, SiAdobefonts,
+    SiAdobeillustrator,
+    SiAdobephotoshop, SiAstro, SiCinema4D, SiCplusplus, SiFigma, SiFramer, SiGit,
+    SiGithub,
+    SiGooglechrome, SiGooglefonts,
+    SiIntellijidea, SiJavascript, SiKotlin, SiLua,
+    SiNeovim, SiNextdotjs, SiReact, SiRust, SiTypescript, SiWebstorm, SiZig
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
@@ -23,14 +29,27 @@ const Tools = () => {
                     charSpace={"mr-[0.001em]"}
                 />
 
+                <div className="mx-auto w-[100%] lg:max-w-[1200px] justify-center">
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+                        <AnimatedBody delay={0.1} text="Design" />
+                        <div>
+                            <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.1} stepSize={0.1} iconSize={50}>
+                                <SiAdobephotoshop size={50}/>
+                                <SiAdobeaftereffects size={50}/>
+                                <SiAdobefonts size={50}/>
+                                <SiCinema4D size={50}/>
+                                <SiGooglefonts size={50}/>
+                            </AnimatedTools>
+                        </div>
+                    </div>
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
                         <AnimatedBody delay={0.2} text="Frontend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
                                 <SiJavascript size={50}/>
                                 <SiReact size={50}/>
-                                <SiBootstrap size={50}/>
-                                <SiTailwindCSS size={50}/>
+                                <SiAstro size={50}/>
+                                <SiNextdotjs size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
