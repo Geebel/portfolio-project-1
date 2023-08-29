@@ -51,7 +51,7 @@ const Contact = () => {
 
                     <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
                         <Link
-                            href="https://github.com/nuIIpointerexception"
+                            href="https://github.com/Geebel"
                             target="_blank"
                             aria-label="View GitHub Profile"
                         >
@@ -65,12 +65,12 @@ const Contact = () => {
                             />
                         </Link>
                         <Link
-                            href="https://www.youtube.com/c/seekvisualartist/"
+                            href="https://www.linkedin.com/in/gbolahan-ojo-oye/"
                             target="_blank"
-                            aria-label="View Youtube Channel"
+                            aria-label="View LinkedIn Profile"
                         >
                             <AnimatedTitle
-                                text={"YOUTUBE"}
+                                text={"LINKEDIN"}
                                 className={
                                     "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                                 }
@@ -79,12 +79,12 @@ const Contact = () => {
                             />
                         </Link>
                         <Link
-                            href="https://discord.com/invite/hDhUTsRA"
+                            href="https://wa.link/4qgd96"
                             target="_blank"
-                            aria-label="View Discord Profile"
+                            aria-label="View Whatsapp Contact"
                         >
                             <AnimatedTitle
-                                text={"DISCORD"}
+                                text={"Whatsapp"}
                                 className={
                                     "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                                 }

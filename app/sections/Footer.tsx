@@ -15,15 +15,15 @@ const Footer = () => {
                     text={"© Seek Visual Artist 2023"}
                     className={"m-0 p-0"}
                 />
-                <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
+                <div className="flex flex-col sm:flex-row sm:gap-1 md:gap-2">
                     <AnimatedBody text={"Design & Deployed by"} className={"m-0 p-0"} />
                     <Link
-                        href="https://github.com/nuIIpointerexception"
+                        href="https://github.com/Geebel"
                         target="_blank"
-                        aria-label="Seek Visual Artist's GitHub Profile"
+                        aria-label="ojo Omogbolahan's GitHub Profile"
                     >
                         <span className="underline underline-offset-2 hover:no-underline">
-                            <AnimatedBody text={"Seek Visual Artist"} className={"m-0 p-0"} />
+                            <AnimatedBody text={"Ojo Omogbolahan"} className={"m-0 p-0"} />
                         </span>{" "}
                     </Link>
                 </div>
