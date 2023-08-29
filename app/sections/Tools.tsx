@@ -46,10 +46,23 @@ const Tools = () => {
                         <AnimatedBody delay={0.2} text="Frontend" />
                         <div>
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.2} stepSize={0.1} iconSize={50}>
+                                <SiTypescript size={50}/>
                                 <SiJavascript size={50}/>
                                 <SiReact size={50}/>
                                 <SiAstro size={50}/>
                                 <SiNextdotjs size={50}/>
+                            </AnimatedTools>
+                        </div>
+                    </div>
+                    <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-bold leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[40px] md:leading-relaxed lg:mb-16 lg:w-[50%]">
+                        <AnimatedBody delay={0.3} text="Backend" />
+                        <div>
+                            <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.3} stepSize={0.1} iconSize={50}>
+                                <SiZig size={50}/>
+                                <SiRust size={50}/>
+                                <SiCplusplus size={50}/>
+                                <SiLua size={50}/>
+                                <SiKotlin size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
@@ -59,6 +72,9 @@ const Tools = () => {
                             <AnimatedTools className="grid grid-cols-5 gap-4" delay={0.4} stepSize={0.1} iconSize={50}>
                                 <SiGithub size={50}/>
                                 <SiGit size={50}/>
+                                <SiNeovim size={50}/>
+                                <SiIntellijidea size={50}/>
+                                <SiWebstorm size={50}/>
                             </AnimatedTools>
                         </div>
                     </div>
