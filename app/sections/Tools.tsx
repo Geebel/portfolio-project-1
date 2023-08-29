@@ -3,8 +3,7 @@ import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import {SiGit,
-    SiGithub,SiBootstrap,SiTailwindCSS
-    SiGooglechrome,SiJavascript,SiReact,
+    SiGithub,SiBootstrap,SiTailwindCSS,SiJavascript,SiReact,
 } from "react-icons/si";
 import AnimatedTools from "../animations/AnimatedTools.tsx";
 
